@@ -35,40 +35,40 @@ body {
 	margin: 34.46px 0 72px 59px;
 }
 
-.navbar {
+.sidebar {
 	background: linear-gradient(205.17deg, #418cd1 10.93%, #9c41d1 116.08%);
 	display: flex;
 	flex-direction: column;
 	width: 250px;
 }
 
-.navbar ul li {
+.sidebar ul li {
 	display: flex;
 	width: 200px;
 	padding: 5px 20px;
 }
 
-.navbar ul li:hover {
+.sidebar ul li:hover {
 	background: rgba(255, 255, 255, 0.103);
 	border-radius: 5px;
 }
 
-.nav-lists {
+.side-lists {
 	padding: 0 20px;
 }
 
-.nav-lists .list-item {
+.side-lists .list-item {
 	display: flex;
 	align-items: center;
 	width: 220px;
 	height: 50px;
 }
 
-.nav-icon {
+.side-icon {
 	padding-right: 15px;
 }
 
-.navbar ul li a {
+.sidebar ul li a {
 	color: var(--white);
 	font-weight: 500;
 	line-height: 21px;
