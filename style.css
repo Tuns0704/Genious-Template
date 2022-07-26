@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro&display=swap");
+:root {
+	--blue: #418cd1;
+	--purple: #4c6fff;
+	--pink: #9c41d1;
+	--white: #ffffff;
+	--text-dark: #4a4747;
+	--text-light: #a6acbe;
+	--bg-white: #f3f3f3;
+	--paragraph: #767278;
+	--secondary: #ff7800;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.logo {
+	width: 131.41px;
+	height: 42px;
+	margin: 34.46px 0 72px 59px;
+}
+
+.navbar {
+	background: linear-gradient(205.17deg, #418cd1 10.93%, #9c41d1 116.08%);
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+
+.navbar ul li {
+	display: flex;
+	width: 200px;
+	padding: 5px 20px;
+}
+
+.navbar ul li:hover {
+	background: rgba(255, 255, 255, 0.103);
+	border-radius: 5px;
+}
+
+.nav-lists {
+	padding: 0 20px;
+}
+
+.nav-lists .list-item {
+	display: flex;
+	align-items: center;
+	width: 220px;
+	height: 50px;
+}
+
+.nav-icon {
+	padding-right: 15px;
+}
+
+.navbar ul li a {
+	color: var(--white);
+	font-weight: 500;
+	line-height: 21px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.login-btn-sidebar {
+	position: absolute;
+	left: 20px;
+	top: 90%;
+	height: 21px;
+	margin: 0 0 50px 15px;
+}
+
+.login-btn-sidebar a {
+	display: flex;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 500;
+	color: var(--white);
+}
+
+.content {
+	background: var(--bg-white);
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+/*--------------- Layout---------------*/
+.left-content {
+	width: 50%;
+	height: 600px;
+}
+
+.right-content {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+
+.bottom-content {
+	padding: 0 42px;
+	width: 100%;
+	height: 375px;
+}
+
+/*--------------- End Layout---------------*/
+
+.content h1 {
+	color: var(--text-dark);
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 55px;
+	font-weight: 600;
+	width: 100%;
+	padding: 80px 0 20px 0;
+}
+
+form.nosub {
+	display: flex;
+	border: none;
+	width: 60%;
+	margin: 0 auto;
+	background-color: var(--white);
+	border: 1px solid var(--text-dark);
+	border-radius: 50px;
+	box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+label .search-btn {
+	padding: 20px 5px 0 15px;
+}
+
+input.nosub {
+	width: 80%;
+	height: 90px;
+	background: transparent;
+	border: none;
+}
+
+input.nosub {
+	color: var(--text-light);
+	font-size: 34px;
+	font-weight: 600;
+	opacity: 0.3;
+}
+input.nosub:focus {
+	outline: none;
+	color: var(--text-light);
+	font-size: 34px;
+	font-weight: 600;
+}
+
+.login-btn-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+	width: 215px;
+	height: 60px;
+	background: var(--purple);
+	border-radius: 20px;
+	border: none;
+	color: var(--white);
+	font-size: 32px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.login-btn-content:active {
+	opacity: 0.9;
+}
+
+.img-banner {
+	width: 620px;
+	height: 600px;
+}
+
+.bottom-content h2 {
+	color: var(--text-dark);
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.card-list {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-item {
+	background: var(--white);
+	width: 250px;
+	height: 280px;
+	border-radius: 16px;
+}
+
+.card-item img {
+	width: 100%;
+	height: 172px;
+	padding: 10px 10px 0 10px;
+}
+
+.card-tag {
+	display: none;
+	font-size: 12px;
+	font-weight: 500;
+	background: var(--paragraph);
+}
+
+.card-title {
+	padding: 10px 10px 0 10px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.card-desc {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.card-desc p {
+	color: var(--secondary);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.btn-card-view-more {
+	font-size: 14px;
+	color: var(--paragraph);
+}
